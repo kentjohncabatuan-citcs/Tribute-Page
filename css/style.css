@@ -1,0 +1,34 @@
+body{
+	background-color: #FEFFF9 !important;
+}
+#header{
+	position: relative;
+}
+#story , #matches{
+	font-size: 56pt;
+	padding-top: 20px;
+}
+#title{
+	margin-top: 30px;
+	font-size: 46pt;
+    font-weight: 700;
+}
+#anime{
+	background-color: #000000; 
+}
+#anime-head{
+	font-size: 86pt;
+	font-weight: 500;
+}
+#footer{
+	padding: 20px;
+}
+@supports (-webkit-text-stroke: 0.8px black) {
+  #anime-head {
+    -webkit-text-stroke: 0.8px white;
+    -webkit-text-fill-color: black;
+  }
+}
+.story-details{
+	padding-top: 17px;
+}
